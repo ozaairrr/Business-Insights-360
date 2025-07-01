@@ -90,6 +90,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 
 These highlight the depth of logic and complexity handled in this project⤵️:
 
+### Dynamic Profit & Loss Reporting
 ```DAX
 P&L values = 
 VAR res = 
