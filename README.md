@@ -126,8 +126,9 @@ This Power BI project demonstrates:
 ## 🙌 Author
 
 **Ozair** – Aspiring Data Engineer & Analyst  
-📧 Contact: [LinkedIn *Hello* ](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
-🎓 BCA Graduate | Specializing in Data Warehousing, Azure, GCP, and Power BI
+📧 Contact: [LinkedIn](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
+
+🎓 BCA Graduate | Specializing in Data Warehousing, Python, SQL, Azure and Power BI
 
 ---
 
