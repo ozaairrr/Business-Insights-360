@@ -149,7 +149,9 @@ BusinessInsights360/
 │
 ├── 📊 Power BI (.pbix File)
 ├── 📁 docs
-|   ├──best-practices.md
+|   ├── best-practices.md
+|   ├── dax_formula_reference.md
+|   ├── data_source_breakdown.md
 ├── 📁 screenshots/
 │   ├── Home.png
 │   ├── Finance View.png
@@ -158,8 +160,12 @@ BusinessInsights360/
 │   └── Supply Chain View.png
 ├── README.md
 ```
+---
+## 📊 Data Sources
 
+This report is powered by 10 relational tables (dimensional + fact) containing over **5.3 million records**, modeled in a star schema.
 
+🔗 [Click here to view full dataset breakdown ➜](datasets.md)
 ---
 
 ## 📈 Use Cases
