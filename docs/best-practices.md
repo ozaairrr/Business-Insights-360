@@ -53,3 +53,9 @@
 - All visuals titled, slicers aligned, KPIs shown using cards, and tooltips enabled on charts.
 - Used area line charts, matrix tables, clustered charts, and waterfall visuals for analytical depth.
 
+---
+
+> 💡 **Note:**  
+> These best practices reflect my real-world learning and implementation throughout the Business Insights 360 project.  
+> I continue to explore better ways to optimize, scale, and visualize data using Power BI and DAX.
+
