@@ -34,16 +34,16 @@
   P&L Final Value = SWITCH(TRUE(), ...)
   ```
 - Created dynamic chart titles like:
-```DAX
-DAXPerformance Visual Title = 'Key Measures'[Selected P&L Row] & " Performance Over Time"
-```
+  ```DAX
+  DAXPerformance Visual Title = 'Key Measures'[Selected P&L Row] & " Performance Over Time"
+  ```
 ### ✅ 5. Forecasting & Error Analytics
 - Designed error analysis KPIs such as:
   -Forecast Accuracy %, Net Error %, Absolute Error, Risk Classification
 - Built logic for "Out of Stock" vs "Excess Inventory" detection using:
-```DAX
-Risk = IF([Net Error]>0, "Excess Inventory", "Out of Stock")
-```
+  ```DAX
+  Risk = IF([Net Error]>0, "Excess Inventory", "Out of Stock")
+  ```
 ### ✅ 6. Page-Level Customization
 - Each report page **(Finance, Sales, Marketing, Supply Chain)** designed with specific metrics and visuals, making storytelling intuitive.
 - Visuals re-used smartly across pages via page duplication, reducing design effort and maintaining consistency.
