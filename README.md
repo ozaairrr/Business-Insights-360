@@ -29,7 +29,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Donut charts for Net Sales vs Deductions & COGS analysis
 - Matrix views by Region and Segment to analyze revenue and profit breakdown
 
-![Finance View]((https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Finance%20View.png?raw=true) |)
+![Finance View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Finance%20View.png?raw=true)
 
 ---
 
@@ -39,7 +39,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Market and product-level performance comparison
 - Unit economics breakdown visualized via donut charts
 
-![Sales View]((https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Sales%20View.png?raw=true))
+![Sales View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Sales%20View.png?raw=true)
 
 ---
 
@@ -49,7 +49,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Waterfall chart showing P&L movement from GM to Net Profit
 - Updated logic: Operational Expenses shown as negative contributions
 
-![Marketing View]((https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Marketing%20View.png?raw=true))
+![Marketing View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Marketing%20View.png?raw=true)
 
 ---
 
@@ -59,7 +59,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Risk profiling: Out-of-stock vs Excess Inventory situations
 - Customer & Product forecast performance evaluation
 
-![Supply Chain View]((https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Supply%20Chain%20View.png?raw=true))
+![Supply Chain View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Supply%20Chain%20View.png?raw=true)
 
 ---
 
