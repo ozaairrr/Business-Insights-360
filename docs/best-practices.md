@@ -1,6 +1,4 @@
-
-## 🚀 Best Practices Followed
-
+<h1 align="center">📊 Business Insights 360</h1>
 ---
 
 ### ✅ 1. Modular & Scalable DAX Measures
