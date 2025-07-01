@@ -92,13 +92,13 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 
 📂 BusinessInsights360/
 │
-├── 📊 Power BI .pbix File (not included in repo)
-├── 📁 screenshots/
-│ ├── Screenshot 2025-07-01 190132.png
-│ ├── Screenshot 2025-07-01 190146.png
-│ ├── Screenshot 2025-07-01 190157.png
-│ ├── Screenshot 2025-07-01 190207.png
-│ └── Screenshot 2025-07-01 190218.png
+├──| 📊 Power BI .pbix File (not included in repo)
+├──| 📁 screenshots/
+│  ├── Screenshot 2025-07-01 190132.png
+│  ├── Screenshot 2025-07-01 190146.png
+│  ├── Screenshot 2025-07-01 190157.png
+│  ├── Screenshot 2025-07-01 190207.png
+│  └── Screenshot 2025-07-01 190218.png
 ├── README.md ✅
 
 
