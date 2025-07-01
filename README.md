@@ -1,4 +1,4 @@
-# 💼 Business Insights 360 - Power BI Project
+<h1 align="center">📊 Business Insights 360-Powerbi Project</h1>
 
 A powerful business intelligence dashboard built using **Power BI**, enabling a 360° view into Finance, Sales, Marketing, and Supply Chain operations.
 
