@@ -138,7 +138,7 @@ IF(dim_date[fy_month_num] > FYMONTHNUM, "YTG", "YTD")
 ```
 🔧 For a full breakdown of DAX measures and formulas used in this project — including Forecast Accuracy, Dynamic P&L logic, Risk flags, and more — check out:
 
-👉 [`DAX Formula Reference`](./DAX_Formula_Reference.md)
+👉 [`DAX Formula Reference`](https://github.com/ozaairrr/Business-Insights-360/blob/97ee5d44cc3b238d71a317a1b341c03a2ed68c66/docs/datasource_breakdown.md)
 
 ---
 
