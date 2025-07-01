@@ -88,13 +88,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 
 ## 🧠 Advanced DAX Formulas (Showcase)
 
-These highlight the depth of logic and complexity handled in this project — ideal for demonstrating DAX expertise:
-
----
-
-## 🧠 Advanced DAX Formulas (Showcase)
-
-These highlight the depth of logic and complexity handled in this project -:
+These highlight the depth of logic and complexity handled in this project⤵️:
 
 ```DAX
 P&L values = 
@@ -110,7 +104,7 @@ VAR res =
 RETURN
 IF(HASONEVALUE('P & L Rows'[Description]), res, [NS_$] / 1000000)
 ```
-## Year-To-Date vs Year-To-Go Logic
+### Year-To-Date vs Year-To-Go Logic
 ```DAX
 ytd_ytg = 
 VAR LASTSALESDATE = MAX(lastSales_Month[lastSales_Month])
