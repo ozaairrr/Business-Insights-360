@@ -4,7 +4,7 @@ A powerful business intelligence dashboard built using **Power BI**, enabling a 
 
 This dashboard helps decision-makers and analysts identify trends, improve profitability, forecast accurately, and analyze performance across various dimensions like product, market, region, and customer.
 
-![Dashboard Navigation](./screenshots/Screenshot%202025-07-01%20190132.png)
+![Home View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Home.png?raw=true) |
 
 ---
 
