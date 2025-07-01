@@ -3,6 +3,13 @@
 A powerful business intelligence dashboard built using **Power BI**, enabling a 360° view into Finance, Sales, Marketing, and Supply Chain operations.
 
 This dashboard helps decision-makers and analysts identify trends, improve profitability, forecast accurately, and analyze performance across various dimensions like product, market, region, and customer.
+---
+## 📈 Live Dashboard Demo
+
+> 📊 **[👉 View Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)**  
+Explore the complete financial, marketing, sales, and supply chain insights in real-time.
+
+---
 
 ![Home View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Home.png?raw=true) 
 
@@ -73,6 +80,21 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 | **DAX Measures**       | All KPIs and metrics including P&L, Forecast Accuracy, Net Error etc.       |
 | **Excel**              | Used as source for Operational Expense % and Forecast values                |
 | **SQL Database**       | Primary source for fact and dimension data                                  |
+
+---
+
+## ✅ Best Practices Followed
+
+A few highlights from the many professional standards followed in this report:
+
+- 📦 Centralized and modular **Key Measures** table.
+- 📉 Smart forecasting logic using **Forecast Accuracy %**, **Net Error %**, and **Risk Classification**.
+- 🧠 Clean and optimized **star schema data model** with minimized column bloat.
+- 🧮 Dynamic titles, measure switching, and visual adaptability via DAX logic.
+- 📊 Interactive page design: Finance, Sales, Marketing, and Supply Chain.
+- 🚀 Lightweight `.pbix` file via data cleanup and memory audits.
+
+👉 [See full list of best practices here](docs/best-practices.md)
 
 ---
 
