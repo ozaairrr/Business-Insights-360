@@ -86,6 +86,39 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - **[Risk]** = `IF([Net Error]>0, "Excess Inventory", "Out of Stock")`
 - **P&L values logic**: Dynamic measure using SWITCH based on P&L Row table
 
+## 🧠 Advanced DAX Formulas (Showcase)
+
+These highlight the depth of logic and complexity handled in this project — ideal for demonstrating DAX expertise:
+
+---
+
+## 🧠 Advanced DAX Formulas (Showcase)
+
+These highlight the depth of logic and complexity handled in this project -:
+
+```DAX
+P&L values = 
+VAR res = 
+    SWITCH(
+        TRUE(),
+        MAX('P & L Rows'[Order]) = 1, [GS $] / 1000000,
+        MAX('P & L Rows'[Order]) = 2, [Pre_Invoice_Deduction_$] / 1000000,
+        MAX('P & L Rows'[Order]) = 3, [NIS $] / 1000000,
+        ...
+        MAX('P & L Rows'[Order]) = 17, [Net Profit %] * 100
+    )
+RETURN
+IF(HASONEVALUE('P & L Rows'[Description]), res, [NS_$] / 1000000)
+```
+## Year-To-Date vs Year-To-Go Logic
+```DAX
+ytd_ytg = 
+VAR LASTSALESDATE = MAX(lastSales_Month[lastSales_Month])
+VAR FYMONTHNUM = MONTH(DATE(YEAR(LASTSALESDATE), MONTH(LASTSALESDATE) + 4, 1))
+RETURN
+IF(dim_date[fy_month_num] > FYMONTHNUM, "YTG", "YTD")
+```
+
 ---
 
 ## 📁 Project Structure
