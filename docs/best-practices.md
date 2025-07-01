@@ -45,11 +45,11 @@ DAXPerformance Visual Title = 'Key Measures'[Selected P&L Row] & " Performance O
 Risk = IF([Net Error]>0, "Excess Inventory", "Out of Stock")
 ```
 ### ✅ 6. Page-Level Customization
--Each report page (Finance, Sales, Marketing, Supply Chain) designed with specific metrics and visuals, making storytelling intuitive.
--Visuals re-used smartly across pages via page duplication, reducing design effort and maintaining consistency.
+- Each report page (Finance, Sales, Marketing, Supply Chain) designed with specific metrics and visuals, making storytelling intuitive.
+- Visuals re-used smartly across pages via page duplication, reducing design effort and maintaining consistency.
 
 ### ✅ 7. Professional Presentation
--Published to Power BI Service (cloud) and synced slicers across pages.
--All visuals titled, slicers aligned, KPIs shown using cards, and tooltips enabled on charts.
--Used area line charts, matrix tables, clustered charts, and waterfall visuals for analytical depth.
+- Published to Power BI Service (cloud) and synced slicers across pages.
+- All visuals titled, slicers aligned, KPIs shown using cards, and tooltips enabled on charts.
+- Used area line charts, matrix tables, clustered charts, and waterfall visuals for analytical depth.
 
