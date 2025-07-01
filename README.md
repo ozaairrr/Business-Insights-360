@@ -121,13 +121,15 @@ IF(dim_date[fy_month_num] > FYMONTHNUM, "YTG", "YTD")
 ```plaintext
 BusinessInsights360/
 │
-├── 📊 Power BI .pbix File (not included in repo)
+├── 📊 Power BI (.pbix File)
+├── 📁 docs
+|   ├──best-practices.md
 ├── 📁 screenshots/
-│   ├── Screenshot 2025-07-01 190132.png
-│   ├── Screenshot 2025-07-01 190146.png
-│   ├── Screenshot 2025-07-01 190157.png
-│   ├── Screenshot 2025-07-01 190207.png
-│   └── Screenshot 2025-07-01 190218.png
+│   ├── Home.png
+│   ├── Finance View.png
+│   ├── Sales View.png
+│   ├── Marketing View.png
+│   └── Supply Chain View.png
 ├── README.md
 ```
 
