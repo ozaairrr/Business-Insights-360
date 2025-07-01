@@ -3,7 +3,7 @@
 A powerful business intelligence dashboard built using **Power BI**, enabling a 360° view into Finance, Sales, Marketing, and Supply Chain operations.
 
 This dashboard helps decision-makers and analysts identify trends, improve profitability, forecast accurately, and analyze performance across various dimensions like product, market, region, and customer.
-| Home Overview    | 
+
 ![Home View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Home.png?raw=true) 
 
 ---
@@ -29,7 +29,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Donut charts for Net Sales vs Deductions & COGS analysis
 - Matrix views by Region and Segment to analyze revenue and profit breakdown
 
-![Finance View](./screenshots/Screenshot%202025-07-01%20190146.png)
+![Finance View](![Finance View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Finance%20View.png?raw=true) |)
 
 ---
 
