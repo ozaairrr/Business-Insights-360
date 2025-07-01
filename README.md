@@ -136,6 +136,9 @@ VAR FYMONTHNUM = MONTH(DATE(YEAR(LASTSALESDATE), MONTH(LASTSALESDATE) + 4, 1))
 RETURN
 IF(dim_date[fy_month_num] > FYMONTHNUM, "YTG", "YTD")
 ```
+🔧 For a full breakdown of DAX measures and formulas used in this project — including Forecast Accuracy, Dynamic P&L logic, Risk flags, and more — check out:
+
+👉 [`DAX Formula Reference`](./DAX_Formula_Reference.md)
 
 ---
 
