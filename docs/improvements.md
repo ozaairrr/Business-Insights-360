@@ -1,4 +1,4 @@
-##🔧 Business Insights 360 — Project Enhancements & Fixes
+## 🔧 Business Insights 360 — Project Enhancements & Fixes
 - This document outlines key improvements, fixes, and new features added to the original Power BI project "Business Insights 360". These updates refine performance, add new functionality, and increase realism based on stakeholder needs.
 ---
 ## 📊 Market Share Integration
