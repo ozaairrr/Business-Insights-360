@@ -70,7 +70,7 @@ Explore the complete financial, marketing, sales, and supply chain insights in r
 ![Supply Chain View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Supply%20Chain%20View.png?raw=true)
 
 ---
-###🔹 Executive View  
+### 🔹 Executive View
 - High-level KPIs summarizing Net Sales, GM %, Net Profit %, Forecast Accuracy, and Market Share  
 - Revenue distribution analysis by Division and Channel using donut charts  
 - Regional summary table showing Sub-Zone-wise metrics (NS $, GM %, RC %, NP %, Net Error, Risk, Market Share %) with conditional formatting  
