@@ -176,7 +176,7 @@ BusinessInsights360/
 
 This report is powered by 10 relational tables (dimensional + fact) containing over **5.3 million records**, modeled in a star schema.
 
-🔗 [Click here to view full dataset breakdown ➜](datasets.md)
+🔗 [Click here to view full dataset breakdown ➜](https://drive.google.com/drive/folders/1AIYcqSQ4RJBDcw_SQ7hoHI0dInCAV1hO?usp=sharing)
 ---
 
 ## 📈 Use Cases
