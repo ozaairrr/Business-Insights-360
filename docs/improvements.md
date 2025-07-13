@@ -98,6 +98,7 @@ For details on Executive View and new Market Share visuals, refer to the main RE
 ### ✅ Improvements like these reflect deep dashboard understanding, stakeholder empathy, and real-world data modeling skills.
 - Feel free to ⭐️ the main project repo or check out the live demo!
 
-- 🔗 Main Repo: Business Insights 360
-- 🔗 Live Dashboard: Power BI Service Link
-![Uploading image.png…]()
+- 🔗 [Main Repo: Business Insights 360](https://github.com/ozaairrr/Business-Insights-360)
+
+[![Live Dashboard](https://github.com/your-username/your-repo/blob/main/screenshots/image.png?raw=true)](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
