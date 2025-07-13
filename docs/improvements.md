@@ -95,9 +95,9 @@ For details on Executive View and new Market Share visuals, refer to the main RE
 	• Add detailed commentary in tooltips for context
 	• Clean up model further by removing unused relationships
 
-✅ Improvements like these reflect deep dashboard understanding, stakeholder empathy, and real-world data modeling skills.
-Feel free to ⭐️ the main project repo or check out the live demo!
+### ✅ Improvements like these reflect deep dashboard understanding, stakeholder empathy, and real-world data modeling skills.
+- Feel free to ⭐️ the main project repo or check out the live demo!
 
-🔗 Main Repo: Business Insights 360
-🔗 Live Dashboard: Power BI Service Link
+- 🔗 Main Repo: Business Insights 360
+- 🔗 Live Dashboard: Power BI Service Link
 ![Uploading image.png…]()
