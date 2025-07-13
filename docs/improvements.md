@@ -19,10 +19,12 @@ Market Share % = DIVIDE(SUM(marketshare[sales_$]), SUM(marketshare[total_market_
 
 ## ⚙️ Forecast Logic & Formula Fixes
 ### 5. Fixed Forecast Quantity Measure:
+ ```DAX
 Forecast Qty =
 VAR lastsaledate = MAX(lastSales_Month[lastSales_Month])
 RETURN
 CALCULATE(SUM(fact_forecast_monthly[forecast_quantity]), fact_forecast_monthly[date] <= lastsaledate)
+ ```
 ### 6. Fixed Chart Visibility Issues:
 	• Line + column visuals no longer show future forecast values beyond Dec 2022
 ### 7. Renamed Measures for Clarity:
@@ -51,21 +53,28 @@ NP Target
 ### 14. Created Benchmark Slicer Table:
 	• Set BM with values: 1 = vs LY, 2 = vs Target
 ### 15. SWITCH-Based Dynamic Measures:
+ ```DAX
 NS BM $ = SWITCH(TRUE(), SELECTEDVALUE('Set BM'[ID])=1, [NS$ LY], SELECTEDVALUE('Set BM'[ID])=2, [NS Target])
 GM % BM = SWITCH(TRUE(), ..., [GM % LY], ..., [GM % Target])
 NP % BM = SWITCH(TRUE(), ..., [NP % LY], ..., [NP % Target])
+ ```
 ### 16. Rebuilt P&L Target Logic:
+ ```DAX
 P&L Target = ... (returns dynamic rows based on selected P&L Row order)
 P&L BM = SWITCH(TRUE(), ..., [P&L LY], ..., [P&L Target])
+ ```
 ### 17. Adjusted P&L Comparison Measures:
+ ```DAX
 P&L YoY CNG = VAR res = [P & L values] - [P&L BM] RETURN IF(..., res)
-
+ ```
 📉 Underperforming Customer Highlight Logic
 ### 18. Created Parameter Slider:
 	• Slicer named Target Gap Tolerance (e.g., 10% GM % threshold)
 ### 19. Created Filtering Logic:
+ ```DAX
 GM % Variance = [GM % BM] - [GM_%]
 GM % Filter = IF([GM % Variance] >= SELECTEDVALUE('Target Gap Tolerance'[Target Gap Tolerance]), 1, 0)
+ ```
 ### 20. Applied Visual Level Filter:
 	• Performance matrix shows only customers failing GM % target beyond selected threshold
 
@@ -75,8 +84,9 @@ GM % Filter = IF([GM % Variance] >= SELECTEDVALUE('Target Gap Tolerance'[Target 
 ### 22. Sales Trend Tooltip:
 	• Created new page for customer-level tooltip
 	• Shows NS $ and GM % trends by month on hover using line chart
+ ```DAX
 Sales Trend Title = "NS & GM % For: " & SELECTEDVALUE(dim_customer[customer])
-
+ ```
 📌 Note
 For details on Executive View and new Market Share visuals, refer to the main README or Executive Dashboard section.
 
