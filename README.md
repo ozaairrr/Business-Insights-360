@@ -179,6 +179,11 @@ This report is powered by 10 relational tables (dimensional + fact) containing o
 🔗 [Click here to view full dataset breakdown ➜](https://drive.google.com/drive/folders/1KzTnRwW2htA8kWJdZNgxXU07UiNzuVuV?usp=sharing)
 ---
 
+📦 Download the Full PBIX File  
+👉 [Click here to access the dashboard PBIX file](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing)  
+
+---
+
 ## 📈 Use Cases
 
 - Evaluate **customer profitability** and growth
