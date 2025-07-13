@@ -13,7 +13,9 @@
 	• Repeated same process for category via new category table
 ### 4. Built Market Share View:
 	• Matrix visual with category on rows, fy_desc & manufacturer on columns, and value as:
+ ```DAX
 Market Share % = DIVIDE(SUM(marketshare[sales_$]), SUM(marketshare[total_market_sales_$]))
+ ```
 	• Converted matrix to Ribbon chart to show manufacturer growth over time
 	• Key Insight: Dell dominated overall; Atliq grew strongly post-2021 in SE (16%) and India (13%)
 
