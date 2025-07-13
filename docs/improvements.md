@@ -3,21 +3,21 @@
 ---
 ## 📊 Market Share Integration
 ### 1. Added Market Share Excel Data:
-	• Data includes total market sales and manufacturer-level sales for brands like Atliq, Dell, HP, Lenovo, Acer, etc.
-	• Data is available by fiscal year and sub-zone.
+- Data includes total market sales and manufacturer-level sales for brands like Atliq, Dell, HP, Lenovo, Acer, etc.
+- Data is available by fiscal year and sub-zone.
 ### 2. Cleaned & Normalized Data:
 	• Corrected misspelled manufacturer names: e.g., dale → Dell, illovo → Lenovo, pacer → Acer, etc.
 ### 3. Resolved Many-to-Many Issues:
-	• Created helper table sub_zone = ALLNOBLANKROW(dim_market[sub_zone])
-	• Linked dim_market[sub_zone] → sub_zone[sub_zone] → marketshare[sub_zone]
-	• Repeated same process for category via new category table
+- Created helper table sub_zone = ALLNOBLANKROW(dim_market[sub_zone])
+- Linked dim_market[sub_zone] → sub_zone[sub_zone] → marketshare[sub_zone]
+- Repeated same process for category via new category table
 ### 4. Built Market Share View:
 	• Matrix visual with category on rows, fy_desc & manufacturer on columns, and value as:
  ```DAX
 Market Share % = DIVIDE(SUM(marketshare[sales_$]), SUM(marketshare[total_market_sales_$]))
  ```
-	• Converted matrix to Ribbon chart to show manufacturer growth over time
-	• Key Insight: Dell dominated overall; Atliq grew strongly post-2021 in SE (16%) and India (13%)
+- Converted matrix to Ribbon chart to show manufacturer growth over time
+- Key Insight: Dell dominated overall; Atliq grew strongly post-2021 in SE (16%) and India (13%)
 
 ## ⚙️ Forecast Logic & Formula Fixes
 ### 5. Fixed Forecast Quantity Measure:
@@ -28,23 +28,23 @@ RETURN
 CALCULATE(SUM(fact_forecast_monthly[forecast_quantity]), fact_forecast_monthly[date] <= lastsaledate)
  ```
 ### 6. Fixed Chart Visibility Issues:
-	• Line + column visuals no longer show future forecast values beyond Dec 2022
+- Line + column visuals no longer show future forecast values beyond Dec 2022
 ### 7. Renamed Measures for Clarity:
-	• Renamed Net Error % to Absolute Error % to reflect correct metric
+- Renamed Net Error % to Absolute Error % to reflect correct metric
 
 📈 KPI Enhancements
 ### 8. GM % in Performance Charts:
-	• Replaced GM $ with GM % in matrix visuals on both Sales View and Marketing View
+- Replaced GM $ with GM % in matrix visuals on both Sales View and Marketing View
 ### 9. Added Footer Info on Home Page:
 	• let Source = #table(type table[Last Refreshed Date = datetime], {{DateTime.LocalNow()}}) in Source
-	• Added: "Sales data loaded until: [Date]", "All values in $ and Millions"
+- Added: "Sales data loaded until: [Date]", "All values in $ and Millions"
 
 🎯 Targets & Benchmark Slicers
 ### 10. Integrated New Target Data:
-	• Monthly targets for NS, GM, NP by market
+- Monthly targets for NS, GM, NP by market
 ### 11. Model Adjustments:
-	• Linked targets[month] ↔ dim_date[date]
-	• Linked targets[market] ↔ dim_market[market]
+- Linked targets[month] ↔ dim_date[date]
+- Linked targets[market] ↔ dim_market[market]
 ### 12. Created Target Measures:
 NS Target $
 GM Target
