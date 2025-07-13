@@ -34,7 +34,7 @@ CALCULATE(SUM(fact_forecast_monthly[forecast_quantity]), fact_forecast_monthly[d
 ### 8. GM % in Performance Charts:
 	• Replaced GM $ with GM % in matrix visuals on both Sales View and Marketing View
 ### 9. Added Footer Info on Home Page:
-let Source = #table(type table[Last Refreshed Date = datetime], {{DateTime.LocalNow()}}) in Source
+	• let Source = #table(type table[Last Refreshed Date = datetime], {{DateTime.LocalNow()}}) in Source
 	• Added: "Sales data loaded until: [Date]", "All values in $ and Millions"
 
 🎯 Targets & Benchmark Slicers
