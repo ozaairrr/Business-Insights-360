@@ -90,7 +90,7 @@ Sales Trend Title = "NS & GM % For: " & SELECTEDVALUE(dim_customer[customer])
 📌 Note
 For details on Executive View and new Market Share visuals, refer to the main README or Executive Dashboard section.
 
-📎 Next Steps
+###📎 Next Steps
 - Continue improving benchmark logic with dynamic toggles for all KPI visuals
 - Add detailed commentary in tooltips for context
 - Clean up model further by removing unused relationships
