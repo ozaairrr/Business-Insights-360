@@ -100,5 +100,6 @@ For details on Executive View and new Market Share visuals, refer to the main RE
 
 - 🔗 [Main Repo: Business Insights 360](https://github.com/ozaairrr/Business-Insights-360)
 
-- [Live Dashboard](https://github.com/your-username/your-repo/blob/main/screenshots/image.png?raw=true)](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+- 📊 [Live Dashboard: Business Insights 360 (Power BI Service)](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
 
