@@ -14,23 +14,23 @@ A comprehensive list of DAX formulas used throughout the **Business Insights 360
 ### 📈 Financial Metrics & Profitability
 
 
--- Net Sales
+- Net Sales
 ```DAX
 [NS_$] = [NIS $] - [Post_Invoice_Deduction_$] - [Post_Invoice_Other_Deduction_$]
 ```
--- Gross Margin
+- Gross Margin
 ```DAX
 [GM_$] = [NS_$] - [Total COGS_$]
 [GM_%] = DIVIDE([GM_$], [NS_$], 0)
 [GM/Unit] = DIVIDE([GM_$], [Total Quantity], 0)
 ```
--- Operational Expenses
+- Operational Expenses
 ```DAX
 [Ads & Promotional Expense] = SUM(fact_actuals_estimates[ad_promotions])
 [Other Operational Expense] = SUM(fact_actuals_estimates[other_operational_expense])
 [Operational Expense $] = ([Ads & Promotional Expense] + [Other Operational Expense]) * -1
 ```
--- Net Profit
+- Net Profit
 ```DAX
 [Net Profit $] = [GM_$] + [Operational Expense $]
 [Net Profit %] = DIVIDE([Net Profit $], [NS_$], 0)
@@ -41,15 +41,15 @@ A comprehensive list of DAX formulas used throughout the **Business Insights 360
 ### 📦 Forecasting & Inventory
 
 
--- Sales Quantity
+- Sales Quantity
 ```DAX
 [Sales Qty] = CALCULATE([Quantity], fact_actuals_estimates[date] <= MAX(lastSales_Month[lastSales_Month]))
 ```
--- Forecast Quantity
+- Forecast Quantity
 ```DAX
 [Forecast Qty] = VAR lastsaledate = MAX(lastSales_Month[lastSales_Month])RETURN CALCULATE(SUM(fact_forecast_monthly[forecast_quantity]), fact_forecast_monthly[date] <= lastsaledate)
 ```
--- Errors & Accuracy
+- Errors & Accuracy
 ```DAX
 [Net Error] = [Forecast Qty] - [Sales Qty]
 ```
@@ -68,7 +68,7 @@ SUMX(
 [Absolute Error %] = DIVIDE([Absolute Error], [Forecast Qty], 0)
 [Forecast Accuracy %] = IF([Absolute Error %] <> BLANK(), 1 - [Absolute Error %], BLANK())
 ```
--- Year-over-Year Accuracy
+- Year-over-Year Accuracy
 ```DAX
 [Forecast Accuracy % LY] = CALCULATE([Forecast Accuracy %], SAMEPERIODLASTYEAR(dim_date[date]))
 ```
@@ -78,7 +78,7 @@ SUMX(
 ### 📅 Time Intelligence
 
 
--- YTD vs YTG
+- YTD vs YTG
 ```DA
 [ytd_ytg] = 
 VAR LASTSALESDATE = MAX(lastSales_Month[lastSales_Month])
@@ -91,7 +91,7 @@ RETURN IF(dim_date[fy_month_num] > FYMONTHNUM, "YTG", "YTD")
 ### ⚠️ Risk Identification
 
 
--- Inventory Risk
+- Inventory Risk
 ```DAX
 [Risk] = IF([Net Error] > 0, "Excess Inventory Situation", "Out of Stock Situation")
 ```
