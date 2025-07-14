@@ -107,7 +107,7 @@ A few highlights from the many professional standards followed in this report:
 - 📊 Interactive page design: Finance, Sales, Marketing, and Supply Chain.
 - 🚀 Lightweight `.pbix` file via data cleanup and memory audits.
 
-👉 [See full list of best practices here](docs/best-practices.md)
+> 👉 [See full list of best practices here](docs/best-practices.md)
 
 ---
 
@@ -120,7 +120,7 @@ A few highlights from the many professional standards followed in this report:
 - 📅 **YTD vs YTG Logic**: Dynamically classifies months into “Year-To-Date” or “Year-To-Go” using latest sales date  
 - 🔀 **Benchmark Switching**: GM % & NP % switch between LY vs Target based on slicer selection  
 
-👉 [Explore full DAX logic here ➜](https://github.com/ozaairrr/Business-Insights-360/blob/7f271a6882e71b8cf74dd1bdf3a9d84ba679cea8/docs/dax_formula_reference.md)
+> 👉 [Explore full DAX logic here ➜](https://github.com/ozaairrr/Business-Insights-360/blob/7f271a6882e71b8cf74dd1bdf3a9d84ba679cea8/docs/dax_formula_reference.md)
 
 ---
 
@@ -147,11 +147,12 @@ BusinessInsights360/
 
 This report is powered by 10 relational tables (dimensional + fact) containing over **5.3 million records**, modeled in a star schema.
 
-🔗 [Click here to view full dataset breakdown ➜](https://drive.google.com/drive/folders/1KzTnRwW2htA8kWJdZNgxXU07UiNzuVuV?usp=sharing)
+> 🔗 [Click here to view full dataset breakdown ➜](https://drive.google.com/drive/folders/1KzTnRwW2htA8kWJdZNgxXU07UiNzuVuV?usp=sharing)
+
 ---
 
 📦 Download the Full PBIX File  
-👉 [Click here to access the dashboard PBIX file](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing)  
+> 👉 [Click here to access the dashboard PBIX file](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing)  
 
 ---
 
@@ -177,7 +178,7 @@ This Power BI project demonstrates:
 ## 🙌 Author
 
 **Ozair** – Aspiring Data Engineer & Analyst  
-📧 Contact: [LinkedIn](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
+>📧 Contact: [LinkedIn](https://www.linkedin.com/in/shaikh-mohammad-ozair-connect/)
 
 🎓 BCA Graduate | Specializing in Data Warehousing, Python, SQL, Azure and Power BI
 
