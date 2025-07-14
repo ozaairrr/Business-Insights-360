@@ -8,8 +8,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 ## 📈 Live Dashboard Demo
 
 > 📊 **[👉 View Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)**  
-
-- 📦 [Download Full PBIX File → Click here](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing)
+> 📦 [Download Full PBIX File → Click here](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing)
 
 
 ---
