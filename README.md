@@ -120,7 +120,7 @@ A few highlights from the many professional standards followed in this report:
 - 📅 **YTD vs YTG Logic**: Dynamically classifies months into “Year-To-Date” or “Year-To-Go” using latest sales date  
 - 🔀 **Benchmark Switching**: GM % & NP % switch between LY vs Target based on slicer selection  
 
-👉 [Explore full DAX logic here ➜](https://github.com/ozaairrr/Business-Insights-360/blob/97ee5d44cc3b238d71a317a1b341c03a2ed68c66/docs/datasource_breakdown.md)
+👉 [Explore full DAX logic here ➜](https://github.com/ozaairrr/Business-Insights-360/blob/7f271a6882e71b8cf74dd1bdf3a9d84ba679cea8/docs/dax_formula_reference.md)
 
 ---
 
