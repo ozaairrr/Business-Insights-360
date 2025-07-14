@@ -15,7 +15,7 @@ This project utilizes **10 structured tables** from two databases (`gdb041`, `gd
 | gdb056   | post_invoice_deductions | 2,063,076 | All post-invoice deduction records   |
 | gdb056   | pre_invoice_deductions  | 1,045     | All pre-invoice deduction records    |
 
-📂 [Click here to view and download the full dataset ➜](https://drive.google.com/drive/folders/1KzTnRwW2htA8kWJdZNgxXU07UiNzuVuV?usp=sharing)
+> 📂 [Click here to download and view the full dataset ➜](https://drive.google.com/drive/folders/1KzTnRwW2htA8kWJdZNgxXU07UiNzuVuV?usp=sharing)
 ---
 
 📌 **Total Rows**: ~**5.38 million**  
