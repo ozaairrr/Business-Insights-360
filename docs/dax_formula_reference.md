@@ -1,6 +1,13 @@
 ## 📊 DAX Formula Reference
 
 A comprehensive list of DAX formulas used throughout the **Business Insights 360** project.
+- 📈 Financial Metrics & Profitability  
+- 📦 Forecasting & Inventory  
+- ⚠️ Risk Identification  
+- 📊 Dynamic P&L Reporting  
+- 🎯 Benchmark Switching  
+- 📌 Revenue Contribution  
+- 🏷️ Tooltip / Title Logic  
 
 ---
 
@@ -111,8 +118,12 @@ IF(HASONEVALUE('P & L Rows'[Description]), res, [NS_$]/1000000)
 ```
 ### 📌 Revenue Contribution
 ```DAX
-[RC %] = 
-DIVIDE([NS_$], CALCULATE([NS_$], ALL(dim_customer)), 0)
+[RC %] = DIVIDE([NS_$], CALCULATE([NS_$], ALL(dim_customer)), 0)
+```
+---
+### 🏷️ Tooltip / Title Logic
+```DAX
+Sales Trend Title = "Monthly Trend: " & SELECTEDVALUE(dim_customer[customer_name], "All Customers")
 ```
 ---
 
