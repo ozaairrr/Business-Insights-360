@@ -7,7 +7,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 ---
 ## 📈 Live Dashboard Demo
 
-> 📊 **[👉 View Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)**
+> 📊 [👉 View Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiNzZmZWExNTctNTI4YS00MjAzLWEyNGUtYzNlMjczZWI0ODlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)**
 
 > 📦 [Download Full PBIX File → Click here](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing).
 
@@ -75,14 +75,11 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 
 ---
 ### 🔹 Executive View
-- High-level KPIs summarizing Net Sales, GM %, Net Profit %, Forecast Accuracy, and Market Share  
-- Revenue distribution analysis by Division and Channel using donut charts  
-- Regional summary table showing Sub-Zone-wise metrics (NS $, GM %, RC %, NP %, Net Error, Risk, Market Share %) with conditional formatting  
-- Benchmark comparison of GM % vs Target using down arrows for underperformance  
-- Multi-metric performance trend chart combining NS $, GM %, NP %, and Market Share %  
-- Market Share evolution over time (ribbon chart) for top manufacturers  
-- Top 5 Customers and Products by Revenue with GM % and RC %  
-- Interactive filtering, bookmarks, and selective visual interaction applied  
+
+- 📊 Consolidated KPIs: Net Sales, GM %, NP %, Forecast Accuracy, Market Share  
+- 🌍 Regional snapshot with benchmark comparisons & conditional formatting  
+- 🏆 Top performers: Customers & Products ranked by revenue and GM %  
+ 
 
 ![Executive View](https://github.com/ozaairrr/Business-Insights-360/blob/33c540fa68995026fe3af94184b310fe139c7670/screenshots/Executive%20View.png)
 
@@ -114,46 +111,16 @@ A few highlights from the many professional standards followed in this report:
 
 ---
 
-## 🔍 Metrics & Measures
+## 🔍 Key Metrics & DAX Logic
 
-### Key DAX Measures:
+- 📊 **Net Profit $** = Gross Margin + Operational Expense (negative sign handled in formula)  
+- 🎯 **Forecast Accuracy %** = 1 – Absolute Error  
+- 🚨 **Risk Classification** = Excess Inventory / Out of Stock based on Net Error  
+- 🧠 **Dynamic P&L**: SWITCH logic to drive matrix values across 17 P&L stages  
+- 📅 **YTD vs YTG Logic**: Dynamically classifies months into “Year-To-Date” or “Year-To-Go” using latest sales date  
+- 🔀 **Benchmark Switching**: GM % & NP % switch between LY vs Target based on slicer selection  
 
-- **[Net Profit $]** = `[GM_$] + [Operational Expense $]`
-- **[Operational Expense $]** = `([Ads & Promo Exp] + [Other Op Exp]) * -1`
-- **[Forecast Accuracy %]** = `1 - Absolute Error %`
-- **[Risk]** = `IF([Net Error]>0, "Excess Inventory", "Out of Stock")`
-- **P&L values logic**: Dynamic measure using SWITCH based on P&L Row table
-
-## 🧠 Advanced DAX Formulas (Showcase)
-
-These highlight the depth of logic and complexity handled in this project⤵️:
-
-### Dynamic Profit & Loss Reporting
-```DAX
-P&L values = 
-VAR res = 
-    SWITCH(
-        TRUE(),
-        MAX('P & L Rows'[Order]) = 1, [GS $] / 1000000,
-        MAX('P & L Rows'[Order]) = 2, [Pre_Invoice_Deduction_$] / 1000000,
-        MAX('P & L Rows'[Order]) = 3, [NIS $] / 1000000,
-        ...
-        MAX('P & L Rows'[Order]) = 17, [Net Profit %] * 100
-    )
-RETURN
-IF(HASONEVALUE('P & L Rows'[Description]), res, [NS_$] / 1000000)
-```
-### Year-To-Date vs Year-To-Go Logic
-```DAX
-ytd_ytg = 
-VAR LASTSALESDATE = MAX(lastSales_Month[lastSales_Month])
-VAR FYMONTHNUM = MONTH(DATE(YEAR(LASTSALESDATE), MONTH(LASTSALESDATE) + 4, 1))
-RETURN
-IF(dim_date[fy_month_num] > FYMONTHNUM, "YTG", "YTD")
-```
-🔧 For a full breakdown of DAX measures and formulas used in this project — including Forecast Accuracy, Dynamic P&L logic, Risk flags, and more — check out:
-
-👉 [`DAX Formula Reference`](https://github.com/ozaairrr/Business-Insights-360/blob/97ee5d44cc3b238d71a317a1b341c03a2ed68c66/docs/datasource_breakdown.md)
+👉 [Explore full DAX logic here ➜](https://github.com/ozaairrr/Business-Insights-360/blob/97ee5d44cc3b238d71a317a1b341c03a2ed68c66/docs/datasource_breakdown.md)
 
 ---
 
