@@ -107,8 +107,13 @@ VAR res = SWITCH(
 )
 RETURN
 IF(HASONEVALUE('P & L Rows'[Description]), res, [NS_$]/1000000)
-```
 
+```
+### 📌 Revenue Contribution
+```DAX
+[RC %] = 
+DIVIDE([NS_$], CALCULATE([NS_$], ALL(dim_customer)), 0)
+```
 ---
 
 📝 *This file serves as a quick reference guide for advanced calculations and business logic implemented in Power BI using DAX.*
