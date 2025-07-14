@@ -13,7 +13,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 
 ---
 
-![Home View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Home.png?raw=true) 
+![Home View](https://github.com/ozaairrr/Business-Insights-360/blob/9312dfd27f209930d52f48abd0d2dda3245886f0/screenshots/Home.png) 
 
 ---
 
