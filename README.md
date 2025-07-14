@@ -38,7 +38,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Donut charts for Net Sales vs Deductions & COGS analysis
 - Matrix views by Region and Segment to analyze revenue and profit breakdown
 
-![Finance View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Finance%20View.png?raw=true)
+![Finance View](https://github.com/ozaairrr/Business-Insights-360/blob/33c540fa68995026fe3af94184b310fe139c7670/screenshots/Finance.png)
 
 ---
 
@@ -48,7 +48,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Market and product-level performance comparison
 - Unit economics breakdown visualized via donut charts
 
-![Sales View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Sales%20View.png?raw=true)
+![Sales View](https://github.com/ozaairrr/Business-Insights-360/blob/33c540fa68995026fe3af94184b310fe139c7670/screenshots/Sales%20View.png)
 
 ---
 
@@ -58,7 +58,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Waterfall chart showing P&L movement from GM to Net Profit
 - Updated logic: Operational Expenses shown as negative contributions
 
-![Marketing View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Marketing%20View.png?raw=true)
+![Marketing View](https://github.com/ozaairrr/Business-Insights-360/blob/33c540fa68995026fe3af94184b310fe139c7670/screenshots/Marketing%20View.png)
 
 ---
 
@@ -68,7 +68,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Risk profiling: Out-of-stock vs Excess Inventory situations
 - Customer & Product forecast performance evaluation
 
-![Supply Chain View](https://github.com/ozaairrr/Business-Insights-360/blob/2b6e0dae6face216abc712533394655dd0605d00/screenshots/Supply%20Chain%20View.png?raw=true)
+![Supply Chain View](https://github.com/ozaairrr/Business-Insights-360/blob/33c540fa68995026fe3af94184b310fe139c7670/screenshots/Supply%20Chain%20View.png)
 
 ---
 ### 🔹 Executive View
@@ -81,7 +81,7 @@ This dashboard helps decision-makers and analysts identify trends, improve profi
 - Top 5 Customers and Products by Revenue with GM % and RC %  
 - Interactive filtering, bookmarks, and selective visual interaction applied  
 
-![Executive View](https://github.com/ozaairrr/Business-Insights-360/blob/417577f0b6aa243e4d079a874842ece6bb2c0806/screenshots/Executive%20View.png)
+![Executive View](https://github.com/ozaairrr/Business-Insights-360/blob/33c540fa68995026fe3af94184b310fe139c7670/screenshots/Executive%20View.png)
 
 ## 🛠️ Technical Stack
 
