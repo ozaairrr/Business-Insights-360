@@ -19,5 +19,5 @@ This project utilizes **10 structured tables** from two databases (`gdb041`, `gd
 
 📌 **Total Rows**: ~**5.38 million**  
 📂 **Tables Used**: 10  
-🔄 **Data Model**: Star schema with `fact` and `dimension` separation  
+🔄 **Data Model**: Snowflake Schema with `fact` and `dimension` separation  
 
