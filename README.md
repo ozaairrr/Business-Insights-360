@@ -4,7 +4,7 @@ A powerful business intelligence dashboard built using **Power BI**, enabling a 
 
 This dashboard helps decision-makers and analysts identify trends, improve profitability, forecast accurately, and analyze performance across various dimensions like product, market, region, and customer.
 
----
+--- 
 ## 📈 Live Dashboard Demo
 
 > 📊 [View Interactive Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiZTNjMzZiNDAtZjk2ZC00ZGZlLTkwOTYtY2I3ODFlNmZkN2U5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
