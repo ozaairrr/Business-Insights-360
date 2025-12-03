@@ -13,7 +13,8 @@ Zenith Hardware Co. (brick-and-mortar + e-commerce) operates across multiple reg
 - Marketing: Product profitability and campaign impact
 - Supply Chain: Forecast accuracy and inventory risk
 
-**The Solution:** Built a comprehensive BI platform processing 5.3M+ transaction records, enabling real-time analysis through interactive dashboards.
+### The Solution: 
+- Built a comprehensive BI platform processing 5.3M+ transaction records, enabling real-time analysis through interactive dashboards.
 
 ---
 
