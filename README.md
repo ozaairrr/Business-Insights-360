@@ -15,7 +15,7 @@
 
 **Result:** Manual Excel reports (outdated, error-prone), no real-time visibility, decisions made on gut feeling.
 
-## My solution 
+## ✔️ My solution 
 - Built an integrated BI platform processing **5.3M+ transaction records** across 10 interconnected tables, delivering real-time insights that reduced manual reporting time from **4 hours/day to 15 minutes**.
 
 ---
