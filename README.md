@@ -25,6 +25,9 @@ Zenith Hardware Co. (brick-and-mortar + e-commerce) operates across multiple reg
 | **Interactive Dashboard** | [View Live Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiZTNjMzZiNDAtZjk2ZC00ZGZlLTkwOTYtY2I3ODFlNmZkN2U5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9) |
 | **PBIX File** | [Download Here](https://drive.google.com/file/d/1k7M7UcfIeiEu56WvFN9JMD6fss_vgSO2/view?usp=sharing) |
 | **Video Walkthrough** | [3-min Project Presentation](https://youtu.be/SFmGicFt5u0?si=c4lM4j3QF5-c0WPq) |
+> ⚠️ Note: The live Power BI report is hosted on Power BI Service.  
+> If my Power BI subscription or workspace access expires, the interactive report link may stop working.  
+> In that case, please use the PBIX download link or screenshots in this repo instead.
 
 ![Home View](https://github.com/ozaairrr/Business-Insights-360/blob/9312dfd27f209930d52f48abd0d2dda3245886f0/screenshots/Home.png)
 
@@ -347,11 +350,8 @@ This project showcases:
 ## 🔮 Future Enhancements
 
 - [ ] Real-time data integration via Azure Data Factory or SQL scheduled jobs
-- [ ] Advanced forecasting models (Prophet/ARIMA) for improved prediction accuracy
 - [ ] Customer segmentation analysis (RFM scoring)
-- [ ] Automated alerts for KPI anomalies and threshold breaches
 - [ ] Mobile-responsive view optimization for executives
-- [ ] Predictive churn modeling and customer lifetime value analysis
 - [ ] Power BI Premium features: Incremental refresh, Premium capacity optimization
 - [ ] Integration with Power BI Paginated Reports for scheduled PDF delivery
 
@@ -403,4 +403,4 @@ Questions? Connect on [LinkedIn](https://www.linkedin.com/in/shaikh-mohammad-oza
 
 ## 📄 License & Attribution
 
-This project is built on Atliq Hardware's anonymized business data for portfolio demonstration purposes. All analysis, technical implementation, and data architecture are original work.
+This project is built on Zenith Hardware's anonymized business data for portfolio demonstration purposes. All analysis, technical implementation, and data architecture are original work.
