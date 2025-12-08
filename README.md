@@ -9,7 +9,7 @@
 **Business Context:**
 Zenith Hardware Co. (brick-and-mortar + e-commerce) operates across multiple regions and product categories with complex cost structures. The company needed a unified view across:
 - Finance: P&L analysis across 27 product lines and regions
-- Sales: Customer and market performance visibility
+- Sales: Customer and market performance visibility.
 - Marketing: Product profitability and campaign impact
 - Supply Chain: Forecast accuracy and inventory risk
 
